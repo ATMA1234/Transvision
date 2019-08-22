@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/status_report_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/txt_close"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="12"
+            android:background="@color/circle_image_shadow"
+            android:drawableEnd="@drawable/ic_close" />
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp20"
+        android:layout_marginEnd="@dimen/dp20"
+        android:layout_marginBottom="@dimen/dp20"
+        android:elevation="@dimen/dp4"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:cardCornerRadius="@dimen/dp5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <ImageView
+                android:id="@+id/items_pic"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_menu_camera" />
+
+            <android.support.design.button.MaterialButton
+                android:id="@+id/btn_submit"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp10"
+                android:text="Submit"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                app:backgroundTint="@color/white"
+                app:cornerRadius="8dp"
+                app:rippleColor="#81D4FA"
+                app:strokeColor="@color/colorPrimary"
+                app:strokeWidth="2dp" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

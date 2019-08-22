@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    tools:showIn="@layout/app_bar_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="50dp">
+
+        <Button
+            android:id="@+id/btn_req_equipment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:background="@drawable/btn_shape"
+            android:text="Request Equipment" />
+
+        <Button
+            android:id="@+id/btn_mgmnt_approval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_shape"
+            android:text="Management Approval" />
+
+        <Button
+            android:id="@+id/btn_received_approval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:background="@drawable/btn_shape"
+            android:text="Received Approval" />
+
+        <Button
+            android:id="@+id/btn_view_approvals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:background="@drawable/btn_shape"
+            android:text="View Approvals" />
+
+        <Button
+            android:id="@+id/btn_attendance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textStyle="italic"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_shape"
+            android:text="Attendance" />
+
+    </LinearLayout>
+
+</LinearLayout>

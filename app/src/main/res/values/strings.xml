@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Transvision</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="request_equipment">Request Equipment</string>
+    <string name="management_approval">Management Approval</string>
+    <string name="received_approval">Received Approval</string>
+    <string name="view_approvals">View Approvals</string>
+    <string name="attendance">Attendance</string>
+
+    <string name="semi_colon">:</string>
+    <string name="logout">Logout</string>
+    <string name="company_details">© 2019 Transvision Software &amp; Data Solutions Pvt Ltd.\n
+        All Rights Reserved\n<u>www.transvisionsolutions.com</u></string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_request"
+            android:icon="@drawable/request"
+            android:title="@string/request_equipment" />
+        <item
+            android:id="@+id/nav_management"
+            android:icon="@drawable/management"
+            android:title="@string/management_approval" />
+        <item
+            android:id="@+id/nav_received"
+            android:icon="@drawable/received"
+            android:title="@string/received_approval" />
+        <item
+            android:id="@+id/nav_approvals"
+            android:icon="@drawable/approval"
+            android:title="@string/view_approvals" />
+        <item
+            android:id="@+id/nav_attendance"
+            android:icon="@drawable/ic_person"
+            android:title="@string/attendance" />
+    </group>
+
+</menu>
